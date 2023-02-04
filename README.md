@@ -8,6 +8,6 @@ A Overview of Natural Language Processing can be found [here](https://github.com
 
 This Program reads in a csv file of employee information and processes the text to be more standardized
 
-Use System arguments to run the Program: Python3 homework1.py data.csv
+Use system arguments to run the Program: Python3 homework1.py data.csv
 
 In my opinion I think that python is very helpful when it comes to processing text. Python's built in library such as the regular expression library makes it very easy to work with text patterns. After work on this homework assginment I was able to get a refresher in regex and learn a bit about how classes work in python. 
