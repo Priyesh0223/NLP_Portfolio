@@ -1,0 +1,242 @@
+<aiml version="2.0">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Hi there <get name="name"/>!</li>
+                <li>Nice to meet you <get name="name"/>!</li>
+                <li>Hello, how can I help you?</li>
+                <li>Hello!</li>
+                <li>What's up!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+      <pattern>NEW USER *</pattern>
+      <template>Nice to meet you, <set name="name"><star/></set>! My Name is TARS would you like to talk about Interstellar? </template>
+    </category>
+
+    <category>
+      <pattern>RETURNING USER *</pattern>
+      <template> Hello! It's nice to see you again <set name="name"><star/></set>! </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>HOWS IT GOING</pattern>
+        <template>Im functioning!</template>
+    </category>
+
+    <category>
+        <pattern>GREETINGS</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <template>Great!</template>
+    </category>
+
+    <category>
+        <pattern>IT IS NICE TO MEET YOU</pattern>
+        <template>It's nice to meet you <get name="name"/>!</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS INTERSTELLAR THE MOVIE ABOUT</pattern>
+        <template>
+        The movie is about a group of astronauts who travel through a wormhole in search of a new home for humanity after Earth becomes uninhabitable. Along the way, they encounter various challenges and obstacles that test their resolve and their understanding of the nature of time and space.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN DID INTERSTELLAR COME OUT</pattern>
+        <template> Interstellar premiered in theaters November 2014</template>
+    </category>
+
+    <category>
+        <pattern>WHO DIRECTED INTERSTELLAR</pattern>
+        <template>Interstellar was directed by Christoper Nolan!</template>
+    </category>
+
+    <category>
+      <pattern>WHAT ARE BLACK HOLES</pattern>
+      <template>
+        <condition name="like_2">
+          <li value="YES">
+            <random>
+              <li>I know you like space science, so I'll give you the cool answer. Black holes are incredibly dense objects in space that have a gravitational pull so strong that nothing, not even light, can escape.</li>
+              <li>I know you like space science, so I'll give you the cool answer. Black holes form when massive stars collapse under the force of their own gravity, creating a singularity.</li>
+              <li>I know you like space science, so I'll give you the cool answer. Black holes are fascinating objects that have puzzled astronomers for decades. They offer unique opportunities to study the laws of physics under extreme conditions.</li>
+            </random>
+          </li>
+          <li value="NO">
+            <random>
+              <li>I know you hate space science, so here is the simple explanation for this super boring topic. Black holes are like these really intense things in space where everything gets sucked in and disappears forever.</li>
+              <li>I know you hate space science, so here is the simple explanation for this super boring topic. Black holes are basically just giant space vacuums that swallow everything up.</li>
+              <li>I know you hate space science, so here is the simple explanation for this super boring topic. Black holes are, like, these scary things in space that we don't really understand, but they can destroy entire galaxies if they get too close.</li>
+            </random>
+          </li>
+        </condition>
+      </template>
+    </category>
+
+
+    <category>
+        <pattern>WHAT GENRE CATEGORY DOES THE MOVIE BELONG TOO</pattern>
+        <template>Interstellar is a science fiction movie.</template>
+    </category>
+
+    <category>
+        <pattern>WHICH WHO ACTORS PLAY ACT IN THE MOVIE</pattern>
+        <template>. The movie features a cast of actors, including Matthew McConaughey, Anne Hathaway, Jessica Chastain, and Michael Caine, among others. </template>
+    </category>
+
+    <category>
+        <pattern>HOW LONG IS THE MOVIE</pattern>
+        <template>The movie is quite long compared to the average runtime of a movie it has a runtime of 2 hours and 49 minutes.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE MOVIE RATED</pattern>
+        <template>Interstellar is rated PG-13.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT CAN YOU TELL ME</pattern>
+        <template>I can provide you with some facts about Interstellar.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT CAN YOU DO</pattern>
+        <template>Not much but I can tell you about Interstellar!</template>
+    </category>
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>For emergencies contact 911!</template>
+    </category>
+
+    <category>
+        <pattern>COOL</pattern>
+        <template>Very Chill!</template>
+    </category>
+
+    <category>
+        <pattern>WHAT AWARDS DID THE MOVIE WIN RECEIVE</pattern>
+        <template>Interstellar was critically acclaimed upon its release in 2014, and it received numerous award nominations and wins. Such as the Academy Awards for Best Visual Effects and BAFTA Awards for Best Special Visual Effects. </template>
+    </category>
+
+    <category>
+      <pattern>WHO DID * PLAY IN THE MOVIE INTERSTELLAR</pattern>
+      <template>
+        <think><set name="actor"><star/></set></think>
+        <condition name="actor">
+          <li value="MATTHEW MCCONAUGHEY">
+            Matthew McConaughey played Cooper in Interstellar.
+          </li>
+          <li value="ANNE HATHAWAY">
+            Anne Hathaway played Amelia Brand in Interstellar.
+          </li>
+          <li value="MATT DAMON">
+            Matt Damon played Dr. Mann in Interstellar.
+          </li>
+          <li value="JESSICA CHASTAIN">
+            Jessica Chastain played Murph in Interstellar.
+          </li>
+          <li>
+            I'm sorry, I don't know who <person><get name="actor"/></person> played in Interstellar.
+          </li>
+        </condition>
+      </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>My name is TARS!</template>
+    </category>
+
+    <category>
+      <pattern>GOODBYE</pattern>
+      <template>
+        <random>
+          <li>Goodbye! Have a nice day <get name="name"/>.</li>
+          <li>Goodbye! Take care and stay safe <get name="name"/>.</li>
+          <li>Goodbye for now. Talk to you soon.</li>
+          <li>Thanks for chatting with me. Goodbye <get name="name"/>!</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>THANK YOU</pattern>
+      <template>
+        <random>
+          <li>You're welcome!</li>
+          <li>No problem!</li>
+          <li>It was my pleasure <get name="name"/>.</li>
+          <li>Don't mention it.</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>BYE</pattern>
+      <template><srai>GOODBYE</srai></template>
+    </category>
+
+    <category>
+      <pattern>EXIT</pattern>
+      <template><srai>GOODBYE</srai></template>
+    </category>
+
+    <category>
+      <pattern>QUIT</pattern>
+      <template><srai>GOODBYE</srai></template>
+    </category>
+
+    <category>
+      <pattern>NO I DONT</pattern>
+      <template>That's unfortunate!</template>
+    </category>
+
+    <category>
+      <pattern>NO MATCH</pattern>
+      <template>Sorry, I don't understand what you are asking.</template>
+    </category>
+
+    <category>
+      <pattern>DID MATTHEW MCCONAUGHEY WIN AWARDS FROM THIS MOVIE</pattern>
+      <template>
+        <condition name="like_1">
+          <li value="YES">I know that you like Matthew McConaughey, so you should be proud to learn that he won the Academy Award for Best Actor, as well as other awards!</li>
+          <li value="NO">I know that you dislike Matthew McConaughey, but that doesn't mean I should hide the truth. Unfortunately, Matthew McConaughey did win the Academy Award for Best Actor</li>
+        </condition>
+      </template>
+    </category>
+
+    <category>
+      <pattern>SET LIKE 1 *</pattern>
+      <template>
+        <think><set name="like_1"><star/></set></think>
+      </template>
+    </category>
+
+    <category>
+      <pattern>SET LIKE 2 *</pattern>
+      <template>
+        <think><set name="like_2"><star/></set></think>
+      </template>
+    </category>
+
+</aiml>
