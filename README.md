@@ -20,3 +20,11 @@ In my opinion I think that python is very helpful when it comes to processing te
 ### [Assignment 4](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%204)
 
 ### [Assignment 5](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%205)
+
+### [Assignment 6](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%206)
+
+### [Assignment 7](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%207)
+
+### [Assignment 8](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%208)
+
+
