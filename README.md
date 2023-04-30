@@ -6,13 +6,6 @@ A Overview of Natural Language Processing can be found [here](https://github.com
 
 ### [Assignment 1: Text Processing with Python](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%201)
 
-This Program reads in a csv file of employee information and processes the text to be more standardized
-
-Use system arguments to run the Program: Python3 homework1.py data.csv
-
-In my opinion I think that python is very helpful when it comes to processing text. Python's built in library such as the regular expression library makes it very easy to work with text patterns. After work on this homework assginment I was able to get a refresher in regex and learn a bit about how classes work in python. 
-
-
 ### [Assignment 2: Word Guess Game](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%202)
 
 ### [Assignment 3: WordNet](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%203)
