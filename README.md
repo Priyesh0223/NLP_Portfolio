@@ -29,5 +29,5 @@ In my opinion I think that python is very helpful when it comes to processing te
 
 ### [Assignment 9: Chatbot](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%209)
 
-### [Assignment 10: Text Classification 2](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%210)
+### [Assignment 10: Text Classification 2](https://github.com/Priyesh0223/NLP_Portfolio/tree/main/Assignment%2010)
 
