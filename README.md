@@ -2,7 +2,7 @@
 A NLP_Portfolio that showcases NLP projects worked on during my time in CS 4395
 
 
-##Portfolio reflection
+## Portfolio reflection
 
 After taking this course in NLP I have been able to gain more knowledge about the growth of NLP and all the different real-world application that use NLP. I have acquired numerous skills relating to NLP techniques throughout the course, such as the use of NLP python librarie NLTK , ti-idf, cosine similarity, sentiment analysis, web crawlers, machine learning models, wordnets, nGrams, and corpuses. I am excited to continue learning more about NLP and potential incorporated what I have learned in future projects. In addition, my future plans for a personal project involve building onto the chatbot I created in class and expanding it to give information for all movies and tv shows.
 
