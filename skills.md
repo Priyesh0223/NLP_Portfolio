@@ -3,26 +3,26 @@
 
 ### Langauges
 Java <br /> 
-Python
-C++. 
-MIPs Assembly. 
+Python <br />
+C++ <br />
+MIPs Assembly <br />
 
 ### NLP Techniques
-NLTK. 
-Keras. 
-Tensorflow. 
-Web-Crawling. 
-Web-Scraping. 
-WordNets. 
-nGrams. 
-ACL Paper Review. 
-Machline Learning Models (Naive, Regressison, Neural Networks, Deep learning). 
+NLTK <br /> 
+Keras <br /> 
+Tensorflow <br /> 
+Web-Crawling <br /> 
+Web-Scraping <br />
+WordNets <br />
+nGrams <br />
+ACL Paper Review <br /> 
+Machline Learning Models (Naive, Regressison, Neural Networks, Deep learning) <br />
 
 ### Soft Skills
-working individually. 
-Working as a team. 
-Communicating. 
-Time management. 
-Critical Thinking. 
-Problem solving. 
-Flexibility. 
+working individually <br /> 
+Working as a team <br />
+Communicating <br />
+Time management <br />
+Critical Thinking <br />
+Problem solving <br />
+Flexibility <br />
