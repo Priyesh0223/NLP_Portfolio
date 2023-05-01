@@ -2,8 +2,8 @@
 
 
 ### Langauges
-Java. 
-Python. 
+Java <br /> 
+Python
 C++. 
 MIPs Assembly. 
 
